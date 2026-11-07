@@ -1,0 +1,20 @@
+{
+  "name": "ts-rate-limiter",
+  "version": "1.0.0",
+  "description": "Token bucket + sliding window rate limiter with Redis-compatible API",
+  "main": "main.ts",
+  "scripts": {
+    "start": "npx tsx main.ts"
+  },
+  "keywords": ["typescript", "rate-limiter", "token-bucket", "api", "networking"],
+  "author": "Mahmoud ElNemer <sultanelnemer@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElNeMeR70/ts-rate-limiter.git"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
